@@ -1,5 +1,7 @@
-idade = int(input("Qual é a sua idade? "))
-if idade >= 18:
- print("Você é maior de idade.")
+temperatura = int(input("Qual é a temperatura atual em ºC? "))
+if temperatura > 30:
+  print("A temperatura está quente.")
+elif temperatura >= 15:
+  print("A temperatura está agradável")
 else:
- print("Você é menor de idade.")
+  print("A temperatura está fria")  
